@@ -4,14 +4,14 @@ def turn_count(board)
   counter = 0
   board.each do |token|
 
-    #if
+    if token == "X" || token == "O"
 
     counter += 1
+    end
   end
-
 end
 
-
+# if a token on the board is filled with and X or an O we count it
 #to loop over the elements of the board array.
 # of turns with counter
 #need to get count to count the X's and O's on the board
