@@ -1,5 +1,5 @@
 board = ["X", "O"]
-count = 0
+counter = 0
 def turn_count(board)
   board.each do |turn|
       puts "#{turn}"
@@ -8,7 +8,10 @@ def turn_count(board)
 
 end
 
-
+counter = 0
+if my_condition_is_met
+  counter += 1
+end
 #it 'counts occupied positions' do
 #how many turns have been played
 #return number of turns played
