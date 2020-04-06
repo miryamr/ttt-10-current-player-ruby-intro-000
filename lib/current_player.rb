@@ -9,7 +9,8 @@ binding.pry
     counter += 1
     end
   end
-  return counter
+  return counter hello
+  
 end
 
 # if a token on the board is filled with and X or an O we count it
