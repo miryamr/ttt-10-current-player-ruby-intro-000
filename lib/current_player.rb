@@ -7,9 +7,10 @@ def turn_count(board) #pulling the argument from the spec file
     counter += 1 #than, add 1
     end
   end
-  return counter #here we say give us a number at the end 
+  return counter #here we say give us a number at the end
 end
 
+def current_player
 # if a token on the board is filled with and X or an O we count it
 #to loop over the elements of the board array.
 # of turns with counter
