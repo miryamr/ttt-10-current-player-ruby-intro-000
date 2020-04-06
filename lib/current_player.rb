@@ -14,4 +14,4 @@ if my_condition_is_met
 end
 
 #to loop over the elements of the board array.
-# of turns with counter 
+# of turns with counter
