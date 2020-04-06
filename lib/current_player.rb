@@ -10,10 +10,4 @@ def turn_count(board) #pulling the argument from the spec file
   return counter #here we say give us a number at the end
 end
 
-def current_player
-# if a token on the board is filled with and X or an O we count it
-#to loop over the elements of the board array.
-# of turns with counter
-#need to get count to count the X's and O's on the board
-#loop over the elements of the board_array
-#if theres 1 occupied space on the board that means player X made their move
+def current_player(board)
