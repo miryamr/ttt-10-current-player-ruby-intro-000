@@ -2,9 +2,9 @@ require "pry"
 # player = ["X", "O"]
 def turn_count(board)
   counter = 0
-  board.each do |token|
-binding.pry
-    if token == "X" || token == "O"
+  board.each do |board_index|
+
+    if board_index == "X" || board_index == "O"
 
     counter += 1
     end
