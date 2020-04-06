@@ -5,7 +5,7 @@ def turn_count(board)
 if
 
   count += 1
-end 
+  end
 
 end
 
@@ -14,4 +14,4 @@ end
 # of turns with counter
 #need to get count to count the X's and O's on the board
 #loop over the elements of the board_array
-#if theres 1 occupied space on the board that means player X made their move 
+#if theres 1 occupied space on the board that means player X made their move
