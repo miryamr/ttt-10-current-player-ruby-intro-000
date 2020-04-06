@@ -9,6 +9,7 @@ def turn_count(board)
     counter += 1
     end
   end
+  return counter
 end
 
 # if a token on the board is filled with and X or an O we count it
