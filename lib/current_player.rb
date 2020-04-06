@@ -11,3 +11,4 @@ def turn_count(board) #pulling the argument from the spec file
 end
 
 def current_player(board)
+  if turn_count == 
