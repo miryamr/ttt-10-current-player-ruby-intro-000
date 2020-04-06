@@ -2,7 +2,7 @@ board = ["X", "O"]
 counter = 0
 board.each do |turn|
   puts "#{turn}"
-  if board 
+  if board
 end
 
 counter = 0
