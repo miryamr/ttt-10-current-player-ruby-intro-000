@@ -3,8 +3,6 @@ def turn_count(board)
   board.each do
     count += 1
 
-
-
 end
 
 #brothers = ["Tim", "Tom", "Jim"]
