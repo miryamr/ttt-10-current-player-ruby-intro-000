@@ -11,4 +11,15 @@ def turn_count(board) #pulling the argument from the spec file
 end
 
 def current_player(board)
-  if turn_count == 
+  if turn_count == #even number
+    return "X"
+  else
+    return "O"
+  end
+end 
+
+
+#The `#current_player` method should take in an argument of the game board
+#use the `#turn_count` method to determine if it is `"X"`'s turn or `"O"`'s.
+
+#If the turn count is an even number, the `#current_player` method should return `"X"`, otherwise, it should return `"O"`.
