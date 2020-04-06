@@ -1,6 +1,6 @@
 
 
-board = ["X", "O"]
+
 def turn_count(board)
   board.each do |turn|
       count = 0
