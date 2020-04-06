@@ -1,9 +1,6 @@
 def turn_count(board)
-  board.each do |turn|
-      count = 0
-      puts "#{turn}"
-      count += 1
-    end
+  count = 0
+  
 
 end
 
@@ -13,3 +10,4 @@ end
 #end
 #to loop over the elements of the board array.
 # of turns with counter
+#need to get count to count the X's and O's on the board
